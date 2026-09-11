@@ -1,0 +1,13 @@
+{
+  "name": "Floriografia",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/var/www/html",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Site Floriografia",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
