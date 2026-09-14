@@ -24,7 +24,7 @@ espécies elas combinam e seus significados.</p>
 </section>
 
 <section id="polinizacao">
-    <h1>Polinizacao</h1>
+    <h1>Polinização</h1>
     <p>A polinização é o processo de transferência do pólen da parte masculina da flor,
 chamada antera, para a parte feminina, chamada estigma. Esse processo é
 fundamental para a reprodução das plantas, pois possibilita a fecundação e,
@@ -62,7 +62,7 @@ hibisco), o grupo apresentará o jogo da memória tematico.</p>
 </section>
 
 <section id="sobreNos">
-    <h1>Sobre nos</h1>
+    <h1>Sobre nós</h1>
     <p>Conteudo</p>
 </section>
 
