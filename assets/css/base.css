@@ -1,0 +1,53 @@
+* {
+  padding: 10px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #342b22;
+}
+body {
+  background-color: #ECE1C9;
+  overflow-x: hidden;
+}
+.cu,
+.cu a *{
+  background-color: none;
+  color: #342b22;
+}
+.cu a:hover,
+.cu a:hover * {
+  color: #342b22;
+}
+body,
+body img {
+  width: 100vw;
+}
+#flores {
+  display: flex; /* Coloca todos os cards gerados pelo PHP lado a lado */ /* Dá um espaço de 16px entre cada card */
+  overflow-x: auto;        /* Ativa a barra de rolagem horizontal quando passar o limite da tela */
+  overflow-y: hidden;   
+  background-color: none;   
+  gap: 16px;/* Garante que não haverá rolagem vertical sobressalente */
+  max-height: 250px;
+}
+.container-carrossel {
+  border-radius: 10px;
+  background-color: #342b22;
+  width: 100vw; /* NÃO deixa o card esmagar. Define a largura fixa dele (ex: 250px) */
+  max-height: 300px; /* Faz o card ocupar toda a altura disponível dos 350px do container */
+}
+.card-flor
+{
+    border: 1px solid #bd5830;
+    border-radius: 10px;
+    background-color: #cfa96f;
+    min-width: 200px;
+    height: 200px;
+    max-width: 200px;
+}
+.card-flor * {
+  background-color: none;
+}
+.container-carrossel-card
+{
+    background-color: none;
+}
