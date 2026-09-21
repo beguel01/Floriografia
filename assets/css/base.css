@@ -1,53 +1,176 @@
-* {
-  padding: 10px;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #342b22;
+/* ===== VARIÁVEIS DE COR ===== */
+:root {
+  --bg-dark: #1a0f12;
+  --wine: #4a1030;
+  --wine-light: #6b1f3d;
+  --gold: #c9a66b;
+  --text-light: #ebdcc4;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #ECE1C9;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Georgia', 'Times New Roman', serif;
   overflow-x: hidden;
 }
-.cu,
-.cu a *{
-  background-color: none;
-  color: #342b22;
+
+/* ===== NAV (nav-flutuante.php) ===== */
+nav {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 32px;
+  background-color: rgba(26, 15, 18, 0.9);
+  border: 1px solid var(--gold);
+  border-radius: 30px;
+  padding: 12px 32px;
+  z-index: 100;
+  backdrop-filter: blur(4px);
 }
-.cu a:hover,
-.cu a:hover * {
-  color: #342b22;
+
+nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  white-space: nowrap;
 }
-body,
-body img {
-  width: 100vw;
+
+nav a:hover {
+  color: var(--gold);
 }
-#flores {
-  display: flex; /* Coloca todos os cards gerados pelo PHP lado a lado */ /* Dá um espaço de 16px entre cada card */
-  overflow-x: auto;        /* Ativa a barra de rolagem horizontal quando passar o limite da tela */
-  overflow-y: hidden;   
-  background-color: none;   
-  gap: 16px;/* Garante que não haverá rolagem vertical sobressalente */
-  max-height: 250px;
+
+/* ===== SEÇÕES GERAIS (introducao, floriografia, polinizacao, sobreNos) ===== */
+section {
+  padding: 40px 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+#introducao {
+  padding-top: 100px;
+}
+section h1 {
+  color: var(--gold);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* ===== CARROSSEL DE FLORES (#flores) ===== */
 .container-carrossel {
-  border-radius: 10px;
-  background-color: #342b22;
-  width: 100vw; /* NÃO deixa o card esmagar. Define a largura fixa dele (ex: 250px) */
-  max-height: 300px; /* Faz o card ocupar toda a altura disponível dos 350px do container */
+  padding: 20px 0 60px;
 }
-.card-flor
-{
-    border: 1px solid #bd5830;
-    border-radius: 10px;
-    background-color: #cfa96f;
-    min-width: 200px;
-    height: 200px;
-    max-width: 200px;
+
+.container-carrossel-card {
+  width: 100%;
 }
-.card-flor * {
-  background-color: none;
+
+#flores {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px 40px 30px;
+  scroll-snap-type: x mandatory;
 }
-.container-carrossel-card
-{
-    background-color: none;
+
+#flores::-webkit-scrollbar {
+  height: 8px;
+}
+#flores::-webkit-scrollbar-thumb {
+  background-color: var(--wine-light);
+  border-radius: 4px;
+}
+
+/* ===== CARD DE FLOR (card-significado.php) ===== */
+.card-flor {
+  flex: 0 0 auto;
+  width: 220px;
+  scroll-snap-align: start;
+  background-color: rgba(74, 16, 48, 0.25);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.card-flor:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(201, 166, 107, 0.25);
+}
+
+.card-flor h2 {
+  font-size: 1.1rem;
+  color: var(--gold);
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.card-flor p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+/* o <a> que envolve o card não deve ficar sublinhado nem mudar de cor */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== PÁGINA DE DETALHE (secao-flor.php) ===== */
+.secao-flor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 60px;
+}
+
+.secao-flor h1 {
+  color: var(--gold);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin: 32px 0 12px;
+  border-bottom: 1px solid var(--wine-light);
+  padding-bottom: 6px;
+}
+
+.secao-flor h2 {
+  font-size: 1.3rem;
+  margin: 20px 0 8px;
+}
+
+.secao-flor h2:first-child {
+  color: var(--gold);
+  font-size: 2rem;
+}
+
+.secao-flor h2:first-child i {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.secao-flor p {
+  line-height: 1.7;
+  opacity: 0.9;
+  margin-bottom: 8px;
 }

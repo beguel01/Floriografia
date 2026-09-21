@@ -8,7 +8,7 @@ $flores =
         'nome' => 'Amor-Perfeito',
         'nome_cientifico' => 'Viola tricolor var. hortensis',
         // Floriografia
-        'significado' => 'Você sempre estará nos meus pensamentos.',
+        'significado' => 'Você sempre estará nos meus pensamentos — um símbolo de lembrança constante e carinho que atravessa a distância e o tempo, sem nunca se apagar.',
         'origem' => 'Em inglês, o nome do amor-perfeito é pansy, em referência à palavra francesa pensée, que significa "pensamento". Em Hamlet, de Shakespeare, enquanto distribuía flores após a morte de seu pai, Ofélia observa: "E há também os amores-perfeitos, esses para clarear pensamentos".',
         'combina_com' => 'Crisântemo, para encorajar um ente querido que está passando por um momento difícil. Miosótis, para presentear um amigo cuja bondade e generosidade você nunca vai esquecer.',
         // Botânica
@@ -23,7 +23,7 @@ $flores =
         'nome' => 'Beladona',
         'nome_cientifico' => 'Atropa belladona',
         // Floriografia
-        'significado' => 'Silêncio.',
+        'significado' => 'Silêncio — a discrição de quem guarda um segredo, escolhendo não revelar o que sabe nem falar mais do que o necessário, preservando o que é confidencial.',
         'origem' => 'A beladona, também conhecida como dama-da-noite, é uma das plantas mais tóxicas do mundo. Era comumente usada pelos romanos como veneno, causando a morte e, portanto, silenciando a vítima para sempre. Além disso, o gênero Atropa tem seu nome derivado da deusa grega Átropos, a mais velha das três moiras, conhecida por cortar o fio da vida dos mortais.',
         'combina_com' => 'Aquilégia e Begônia, para pedir a alguém que guarde um segredo. Arruda, como alerta para o destinatário se calar.',
         // Botânica
@@ -38,7 +38,7 @@ $flores =
         'nome' => 'Calêndula',
         'nome_cientifico' => 'Tagetes',
         // Floriografia
-        'significado' => 'Luto.',
+        'significado' => 'Luto — a tristeza da despedida e a lembrança silenciosa de quem já partiu, mas continua presente na memória e no coração de quem ficou.',
         'origem' => 'Quando as nuvens se agitam ou a noite cai, a calêndula se retrai e seu cálice pende. Quando ela se abre novamente à luz do sol, suas pétalas, úmidas de orvalho, parecem chorar. As calêndulas são tradicionalmente usadas para celebrar o Dia de los Muertos (Dia dos Mortos) no México, quando se acredita que os espíritos dos que partiram voltam para visitar os vivos. Essa celebração acontece no festival que homenageia Mictecacíhuatl, a senhora dos mortos e deusa do submundo.',
         'combina_com' => 'Salgueiro, para expressar tristeza com a perda de um ente querido. Arruda, para pedir perdão pela dor que você causou.',
         // Botânica
@@ -53,7 +53,7 @@ $flores =
         'nome' => 'Camélia',
         'nome_cientifico' => 'Camellia',
         // Floriografia
-        'significado' => 'Saudade de você.',
+        'significado' => 'Saudade de você — o desejo de reencontro e a lembrança carinhosa de alguém que está longe, mas nunca esquecido, vivendo sempre no pensamento.',
         'origem' => 'O significado da camélia tem origem no romance de 1848 de Alexandre Dumas, A Dama das Camélias, que narra o trágico amor do jovem burguês Armand Duval com a cortesã Marguerite Gautier. Os dois se apaixonam, mas o relacionamento é arruinado pelo pai de Armand que, temendo o escândalo, convence Marguerite a abandonar o amante. Armand lamenta a partida da amada, mas não vai atrás dela, acreditando que ela o deixou por causa de outro homem. Nesse ínterim, Marguerite adoece de tuberculose. Ela morre sozinha, com saudade de Armand e da história de amor que eles poderiam ter vivido.',
         'combina_com' => 'Narciso, para expressar o anseio por um amor não correspondido. Zínia, para presentear um amigo que está de mudança.',
         // Botânica
@@ -68,7 +68,7 @@ $flores =
         'nome' => 'Cicuta',
         'nome_cientifico' => 'Conium maculatum',
         // Floriografia
-        'significado' => 'Morte.',
+        'significado' => 'Morte — o fim de um ciclo, o silêncio definitivo e a passagem para o desconhecido, encerrando uma jornada e abrindo caminho para outra.',
         'origem' => 'A cicuta é uma planta venenosa que causa paralisia e morte. Talvez o envenenamento por cicuta mais famoso tenha sido o de Sócrates, que bebeu uma infusão feita com tal planta após ser sentenciado à morte por sua filosofia.',
         'combina_com' => 'Crisântemo, para expressar condolências pela perda de um ente querido. Urtiga, para homenagear um ente querido que se foi cedo demais.',
         // Botânica
@@ -83,7 +83,7 @@ $flores =
         'nome' => 'Crisântemo',
         'nome_cientifico' => 'Chrysanthemum',
         // Floriografia
-        'significado' => 'Pêsames.',
+        'significado' => 'Pêsames — o conforto oferecido a quem enfrenta uma perda, expressando solidariedade, respeito e acolhimento diante do luto alheio.',
         'origem' => 'O crisântemo, que floresce no outono, é frequentemente usado em funerais e em túmulos em muitos países da Europa - entre eles, França, Bélgica, Itália e Espanha. Esse ritual pode ter origem na prática da decoração de túmulos no Dia dos Finados, um feriado cristão que ocorre no começo de novembro, época em que é difícil encontrar alguns tipos de flores no continente europeu. O crisântemo é considerado um símbolo de conforto em momentos de luto.',
         'combina_com' => 'Salgueiro, para confortar um amigo que está de luto. Palma-de-Santa-Rita, para consolar um coração partido.',
         // Botânica
@@ -113,7 +113,7 @@ $flores =
         'nome' => 'Dália',
         'nome_cientifico' => 'Dahlia',
         // Floriografia
-        'significado' => 'Amor eterno, Compromisso.',
+        'significado' => 'Amor eterno, Compromisso — a promessa de um afeto duradouro e a dedicação de quem escolhe permanecer ao lado do outro, mesmo diante do tempo.',
         'origem' => 'A dália é chamada de "rainha do jardim de outono" porque floresce por um longo período, especialmente durante os meses dessa estação. Muito usada em buquês de casamento na era vitoriana, esta flor simbolizava longevidade e compromisso.',
         'combina_com' => 'Tulipa, para presentear um casal que noivou recentemente. Murta, para expressar amor e devoção.',
         // Botânica
@@ -128,7 +128,7 @@ $flores =
         'nome' => 'Dente-de-Leão',
         'nome_cientifico' => 'Taraxacum',
         // Floriografia
-        'significado' => 'Adivinhação, Leitura da sorte.',
+        'significado' => 'Adivinhação, Leitura da sorte — o desejo de enxergar o futuro e compreender os caminhos ainda por vir, buscando respostas para o incerto.',
         'origem' => 'O dente-de-leão é associado aos desejos e à predição do futuro: é costumeiro em muitas culturas ocidentais fazer um desejo ao assoprar a "penugem" da flor, espalhando suas sementes. Em termos mais práticos, o dente-de-leão tem sido usado para prever o clima, já que sua penugem fica presa quando o tempo está ruim e se abre quando céus ensolarados e limpos estão a caminho.',
         'combina_com' => 'Samambaia, para celebrar o solstício. Dedaleira e Azevinho, para expressar habilidade de resolver problemas futuros.',
         // Botânica
@@ -143,7 +143,7 @@ $flores =
         'nome' => 'Girassol',
         'nome_cientifico' => 'Helianthus',
         // Floriografia
-        'significado' => 'Falsas riquezas.',
+        'significado' => 'Falsas riquezas — a ilusão de uma fortuna que não passa de aparência, revelando-se vazia diante da realidade quando bem observada.',
         'origem' => 'Os antigos incas acreditavam que esta grande flor amarela simbolizava o deus do sol, Inti, e decoravam seus corpos e templos com joias de ouro em forma de girassol. Quando os colonizadores espanhóis chegaram, ficaram impressionados com essa abundância de riquezas e, quando avistaram um campo de girassóis, a princípio acreditaram que haviam literalmente encontrado um tesouro. Esse erro levou à associação da flor com "falsas riquezas".',
         'combina_com' => 'Jacinto-dos-campos e Aquilégia, para expressar humildade em relação a comportamentos tolos do passado. Lavanda, para indicar falta de confiança em um parceiro de negócios.',
         // Botânica
@@ -158,7 +158,7 @@ $flores =
         'nome' => 'Hortelã',
         'nome_cientifico' => 'Mentha',
         // Floriografia
-        'significado' => 'Conforto.',
+        'significado' => 'Conforto — o alívio oferecido a quem sofre, um gesto de acolhimento e cuidado em momentos de dor, dificuldade ou perda.',
         'origem' => 'Na mitologia grega, a ninfa Minta se apaixonou por Hades, o deus do submundo. Perséfone, rainha ciumenta e esposa de Hades, transformou Minta nessa erva bastante comum. A hortelã tem sido associada ao consolo e ao luto e foi usada com frequência em ritos funerários para mascarar o odor de corpos em decomposição. Portanto, apesar de Minta não poder se unir ao deus do submundo, seu consolo foi se transformar em uma planta associada à morte.',
         'combina_com' => 'Passiflora, para anunciar que você acredita que as coisas vão melhorar. Centáurea, para dizer a um amigo, em um momento de dificuldade, que você o ama e se preocupa com ele.',
         // Botânica
@@ -173,7 +173,7 @@ $flores =
         'nome' => 'Hortênsia',
         'nome_cientifico' => 'Hydrangea',
         // Floriografia
-        'significado' => 'Ostentação, Crueldade.',
+        'significado' => 'Ostentação, Crueldade — a aparência exagerada que esconde um vazio por trás da beleza exibida, revelando mais forma do que conteúdo.',
         'origem' => 'A associação negativa da hortênsia com a ostentação e a crueldade vem de suas flores fartas e arredondadas. Amplas e abundantes, as magníficas flores produzem apenas algumas sementes, sustentando a ideia de que elas exibem mais aparência que conteúdo.',
         'combina_com' => 'Atanásia e Petúnia, para expressar sua insatisfação com acontecimentos recentes. Samambaia, para garantir a um amigo que você vai guardar o segredo dele.',
         // Botânica
@@ -188,7 +188,7 @@ $flores =
         'nome' => 'Íris',
         'nome_cientifico' => 'Iris',
         // Floriografia
-        'significado' => 'Coragem, Sabedoria, Fé.',
+        'significado' => 'Coragem, Sabedoria, Fé — as virtudes de quem enfrenta desafios com confiança, discernimento e convicção diante do desconhecido.',
         'origem' => 'Há tempos, a íris tem sido associada ao poder e à vitória: os antigos egípcios a usavam para coroar a fronte da Esfinge. No século V, Clóvis I, rei dos francos, venceu uma batalha importante após avistar írises desabrochando em um rio. Seus soldados se adornaram com as flores, que passaram a representar a coragem, a fé e a sabedoria que os levaram ao sucesso.',
         'combina_com' => 'Jacinto-dos-campos, para expressar humildade na vitória. Clematite, para mostrar ao presenteado que você admira sua criatividade.',
         // Botânica
@@ -203,7 +203,7 @@ $flores =
         'nome' => 'Lavanda',
         'nome_cientifico' => 'Lavandula',
         // Floriografia
-        'significado' => 'Desconfiança.',
+        'significado' => 'Desconfiança — a cautela de quem já foi enganado e aprendeu a duvidar antes de acreditar novamente, protegendo-se de novas decepções.',
         'origem' => 'Historicamente, a lavanda crescia em regiões de clima quente, hábitat natural de cobras venenosas. Atraídos pela bela e perfumada flor, muitos curiosos acabaram morrendo em virtude da picada dessas cobras. Há quem diga que a áspide que matou Cleópatra estava escondida em um campo de lavandas.',
         'combina_com' => 'Dedaleira, para encorajar um amigo a reconsiderar as próprias escolhas. Estramônio, para demonstrar a alguém que você consegue ver o que há por trás da fachada dessa pessoa.',
         // Botânica
@@ -218,7 +218,7 @@ $flores =
         'nome' => 'Lírio',
         'nome_cientifico' => 'Lilium',
         // Floriografia
-        'significado' => 'Pureza.',
+        'significado' => 'Pureza — a inocência e a sinceridade de um sentimento livre de qualquer mácula, segunda intenção ou artifício.',
         'origem' => 'Na Idade Média, o lírio passou a ser associado à Virgem Maria. Pinturas da Anunciação - o anúncio feito pelo anjo Gabriel a Maria de que ela conceberia e daria à luz a Jesus - frequentemente mostram Gabriel dando um lírio à Virgem Santa, para honrar sua pureza.',
         'combina_com' => 'Flor-de-laranjeira, para comemorar um aniversário de casamento. Cravina, para reverenciar um ato de pura generosidade.',
         // Botânica
@@ -233,7 +233,7 @@ $flores =
         'nome' => 'Madressilva',
         'nome_cientifico' => 'Lonicera',
         // Floriografia
-        'significado' => 'Devoção, Afeto.',
+        'significado' => 'Devoção, Afeto — a fidelidade de quem se entrega por completo a um sentimento verdadeiro, constante e duradouro ao longo do tempo.',
         'origem' => 'Os vitorianos afirmavam que dormir com flores de madressilva debaixo do travesseiro faria você sonhar com o seu verdadeiro amor. Essa crença pode ter se originado na obra Sonho de Uma Noite de Verão, de Shakespeare. Quando a rainha Titânia compara seu sono com o do humilde Bottom, ela alude ao modo como uma doce madressilva envolve um olmo.',
         'combina_com' => 'Orquídea, para expressar gratidão por um presente que você valoriza. Centáurea, para demonstrar devoção e fidelidade a quem você ama.',
         // Botânica
@@ -248,7 +248,7 @@ $flores =
         'nome' => 'Magnólia',
         'nome_cientifico' => 'Magnolia',
         // Floriografia
-        'significado' => 'Dignidade.',
+        'significado' => 'Dignidade — o respeito próprio e a postura firme de quem mantém sua honra e seus valores mesmo diante das adversidades.',
         'origem' => 'A magnólia é uma árvore que emana autoridade em virtude da estrutura alta e generosa, folhas abundantes e enceradas, e flores largas e brancas. Estas últimas são frequentemente associadas à região Sul dos Estados Unidos, onde as árvores alcançam alturas magníficas e suportam verões escaldantes.',
         'combina_com' => 'Beladona, para pedir a um amigo que guarde seu segredo. Oliveira, para lembrar o agraciado de manter a própria dignidade em situações difíceis.',
         // Botânica
@@ -263,7 +263,7 @@ $flores =
         'nome' => 'Margarida',
         'nome_cientifico' => 'Bellis',
         // Floriografia
-        'significado' => 'Inocência, Infância, Pureza.',
+        'significado' => 'Inocência, Infância, Pureza — a simplicidade e a leveza de um coração ainda livre de más intenções, encantos e desconfianças.',
         'origem' => 'A margarida é associada à inocência, à infância e à pureza em várias tradições folclóricas. Na mitologia nórdica, ela é ligada a Freya, deusa da fertilidade, da maternidade e do parto. Na tradição celta, floresciam margaridas dos espíritos de crianças que morriam ao nascer. E, por fim, na mitologia romana, a ninfa Belides se transforma em uma margarida para preservar sua inocência quando é perseguida por Vertumno, o deus das estações.',
         'combina_com' => 'Véu-de-noiva, para presentear um recém-nascido. Peônia e Violeta, para expressar a alegria da infância.',
         // Botânica
@@ -278,7 +278,7 @@ $flores =
         'nome' => 'Orquídea',
         'nome_cientifico' => 'Orchis',
         // Floriografia
-        'significado' => 'Elegância, Beleza.',
+        'significado' => 'Elegância, Beleza — a graça e o refinamento de quem encanta apenas por sua presença, sem esforço ou artifício aparente.',
         'origem' => 'As pétalas coloridas, delicadas e formosas da orquídea facilmente evocam beleza e elegância. Tornou-se um luxo exótico durante a era vitoriana, quando apenas os ricos podiam pagar pela cara flor.',
         'combina_com' => 'Camélia, para ofertar a um amigo de quem você sente falta. Magnólia, para presentear alguém que você admira.',
         // Botânica
@@ -293,7 +293,7 @@ $flores =
         'nome' => 'Papoula',
         'nome_cientifico' => 'Papaver somnferum',
         // Floriografia
-        'significado' => 'Sono eterno.',
+        'significado' => 'Sono eterno — o descanso definitivo, um convite silencioso ao repouso que não conhece despertar nem retorno.',
         'origem' => 'A papoula é conhecida pelos efeitos narcóticos, sendo usada para fazer o ópio. Segundo o mito grego, as papoulas cresciam na terra dos mortos. Elas eram associadas a Deméter, cuja filha, Perséfone, era a rainha do submundo.',
         'combina_com' => 'Fura-neve, para lamentar a perda de um ente querido. Dália, para enfeitar o túmulo de um amigo querido.',
         // Botânica
@@ -308,7 +308,7 @@ $flores =
         'nome' => 'Passiflora',
         'nome_cientifico' => 'Passiflora',
         // Floriografia
-        'significado' => 'Fé.',
+        'significado' => 'Fé — a confiança inabalável em algo maior, mesmo diante da incerteza, do invisível e daquilo que ainda não se pode compreender.',
         'origem' => 'No século XVI, missionários jesuítas descobriram a passiflora na América do Sul. Eles acreditavam que a flor era um símbolo da Paixão de Cristo. As dez pétalas representavam os dez apóstolos fiéis; os filamentos, a coroa de espinhos; os estames, as cinco chagas; o ovário, o estilete; e o estigma, os três pregos que perfuraram as mãos e os pés de Cristo.',
         'combina_com' => 'Edelvais, para dizer que você acredita que o destinatário fará a escolha certa, mesmo que seja difícil. Íris, para presentear um líder religioso.',
         // Botânica
@@ -323,7 +323,7 @@ $flores =
         'nome' => 'Peônia',
         'nome_cientifico' => 'Peonia',
         // Floriografia
-        'significado' => 'Timidez.',
+        'significado' => 'Timidez — o recato de quem prefere se esconder a se expor, guardando os próprios sentimentos e pensamentos só para si.',
         'origem' => 'Na Grécia antiga, dizia-se que as ninfas podiam se transformar em flores de peônia para não serem vistas por humanos. Criaturas tímidas por natureza, elas queriam se esconder de olhos mortais. Da mesma forma, mesmo em plena floração, as pétalas das peônias se curvam para dentro, protegendo os centros delicados.',
         'combina_com' => 'Jacinto e Violeta, para se desculpar e pedir perdão a alguém. Dedaleira, para presentear um admirador secreto.',
         // Botânica
@@ -338,7 +338,7 @@ $flores =
         'nome' => 'Petúnia',
         'nome_cientifico' => 'Petunia',
         // Floriografia
-        'significado' => 'Raiva, Rancor.',
+        'significado' => 'Raiva, Rancor — o ressentimento de um coração ferido que ainda carrega mágoas do passado, mesmo depois de muito tempo.',
         'origem' => 'Há poucos registros sobre a origem do significado desta flor. A petúnia é sensível e se machuca facilmente, como uma pessoa cheia de raiva ou ressentimento.',
         'combina_com' => 'Losna, para indicar desagrado com um resultado. Alecrim, para mostrar que você não vai se esquecer do erro de alguém.',
         // Botânica
@@ -353,7 +353,7 @@ $flores =
         'nome' => 'Rosa',
         'nome_cientifico' => 'Rosa',
         // Floriografia
-        'significado' => 'Amor.',
+        'significado' => 'Amor — o sentimento mais profundo e universal, capaz de unir, transformar e durar para sempre, atravessando gerações e histórias.',
         'origem' => 'A rosa tem sido intimamente ligada ao amor em muitas culturas ao longo da história. As pétalas organizadas em exuberantes camadas e o aroma doce podem explicar a razão. Para os vitorianos, a cor da rosa indicava o nível de afeto que se queria expressar: uma rosa branca para um amor inocente, uma cor-de-rosa para o novo romance e uma vermelho-sangue para uma paixão. Na mitologia grega, diz-se que Clóris, a deusa da primavera, transformou uma bela ninfa que havia morrido em uma rosa. Ela pediu a Apolo para aquecer a flor, a Afrodite para emprestar-lhe sua beleza, a Dionísio para fornecer-lhe encanto, alegria e esplendor. Clóris chamou a rosa de "a rainha das flores".',
         'combina_com' => 'Véu-de-noiva, para celebrar uma festa de casamento. Centáurea, para demonstrar esperança em uma nova busca romântica.',
         // Botânica
@@ -368,7 +368,7 @@ $flores =
         'nome' => 'Samambaia',
         'nome_cientifico' => 'Adiantum',
         // Floriografia
-        'significado' => 'Magia, Mistério.',
+        'significado' => 'Magia, Mistério — o encanto de algo que desafia a explicação lógica e desperta curiosidade, fascínio e imaginação.',
         'origem' => 'As samambaias crescem em áreas úmidas, mas suas folhas repelem a água. Essa curiosa qualidade faz com que as samambaias sejam associadas à magia e ao mistério. O gênero Adiantum, "não molhado" em grego, honra a dualidade fascinante da samambaia. Além disso, diz-se que Vênus, deusa romana do amor e da beleza, tinha tranças de avencas - uma espécie de planta da família das samambaias -, que permaneciam secas mesmo depois que ela emergia do mar.',
         'combina_com' => 'Dedaleira, para se referir a um amor secreto. Papoula, para mostrar ao presenteado que ele está em seus pensamentos e sonhos mais profundos.',
         // Botânica
@@ -383,7 +383,7 @@ $flores =
         'nome' => 'Trevo',
         'nome_cientifico' => 'Trifolium',
         // Floriografia
-        'significado' => 'Boa sorte.',
+        'significado' => 'Boa sorte — o desejo de que bons acontecimentos, caminhos favoráveis e oportunidades surjam pela frente, trazendo prosperidade.',
         'origem' => 'Os trevos, principalmente os de quatro folhas, estão associados à boa sorte há séculos. Na Irlanda, os antigos druidas acreditavam que carregar um trevo consigo possibilitava detectar maus espíritos. Mais tarde, na Idade Média, esse mesmo povo afirmava que as fadas se materializavam diante das pessoas que guardavam esse auspicioso trevo. Em 1620, no registro mais antigo da associação entre o trevo e a sorte, sir John Melton escreveu: "Se qualquer homem que andar pelos campos encontrar um trevo de quatro folhas, irá, algum tempo depois, encontrar algo bom".',
         'combina_com' => 'Urze e Trigo, para desejar boa sorte em um novo empreendimento. Flor-de-maçã e dente-de-leão, para expressar esperança de que os desejos do destinatário vão se realizar.',
         // Botânica
@@ -398,7 +398,7 @@ $flores =
         'nome' => 'Tulipa',
         'nome_cientifico' => 'Tulipa',
         // Floriografia
-        'significado' => 'Declaro meu amor por você.',
+        'significado' => 'Declaro meu amor por você — a coragem de expressar um sentimento profundo e sincero, sem medo de se mostrar vulnerável.',
         'origem' => 'Uma lenda turca fala de dois amantes, Ferhad e Shirin, que desejam estar juntos, mas cujo amor é proibido. Quando Ferhad ouve um boato de que Shirin tirou a própria vida, ele se suicida para permanecer com sua amada por toda a eternidade. As tulipas - símbolos de devoção de Ferhad - brotam onde seu sangue foi derramado.',
         'combina_com' => 'Botão-de-ouro, para demonstrar carinho por um novo e encantador amor. Hera, para presentear um casal que noivou recentemente.',
         // Botânica
@@ -413,7 +413,7 @@ $flores =
         'nome' => 'Véu-de-Noiva',
         'nome_cientifico' => 'Gypsophila',
         // Floriografia
-        'significado' => 'Pureza, Inocência.',
+        'significado' => 'Pureza, Inocência — a delicadeza de um sentimento sincero e genuíno, livre de qualquer intenção oculta ou segunda intenção.',
         'origem' => 'No fim do século XIX, a planta Gypsophila foi apelidada de baby\'s breath ("respiração de bebê") na Inglaterra devido ao perfume agradável e às flores véu de noiva. Esta flor é muito usada em buquês de casamento, assim como em arranjos para presentear mães que acabaram de dar à luz. No Brasil, ela também é conhecida como mosquitinho.',
         'combina_com' => 'Lírio, para presentear pais que acabaram de ter filhos. Cenoura-silvestre, para presentear e agradecer aos padrinhos pela proteção e zelo para com o afilhado.',
         // Botânica
@@ -428,7 +428,7 @@ $flores =
         'nome' => 'Violeta',
         'nome_cientifico' => 'Viola odorata',
         // Floriografia
-        'significado' => 'Modéstia.',
+        'significado' => 'Modéstia — a simplicidade de quem não busca se destacar, preferindo a discrição, a humildade e o silêncio a qualquer exagero.',
         'origem' => 'A violeta cresce com as pétalas rente ao chão: uma imagem que remete à modéstia. Originalmente, foi a flor que simbolizava o Dia dos Namorados: diz-se que São Valentim, quando estava na prisão por tentar propagar o cristianismo, esmagou violetas que cresciam perto de sua cela para fazer tinta. Diz a lenda que ele usou essa tinta para escrever uma carta para a filha do carcereiro, a quem ele havia curado da cegueira. No final da carta, ele assinou como Your Valentine (seu Valentim), inspirando, assim, séculos de cartas românticas: nos países de língua inglesa, virou tradição enviar cartões de Dia dos Namorados com essa assinatura para expressar dedicação e amor.',
         'combina_com' => 'Jacinto-dos-campos, para presentear um amigo querido que é tudo para você. Louro, para mostrar a um amigo que você está orgulhoso das realizações dele.',
         // Botânica
@@ -443,7 +443,7 @@ $flores =
         'nome' => 'Zínia',
         'nome_cientifico' => 'Zinnia',
         // Floriografia
-        'significado' => 'Amizade eterna.',
+        'significado' => 'Amizade eterna — a lealdade de um vínculo que resiste ao tempo e à distância, entre quem se importa de verdade um com o outro.',
         'origem' => 'Como as zínias são fáceis de cultivar e replantar, os vitorianos as associavam à amizade eterna. Um buquê de zínias era um presente comum para um amigo que estava prestes a viajar, para expressar que ele faria falta e não seria esquecido enquanto estivesse fora.',
         'combina_com' => 'Jasmim, para dizer a um amigo que ele faz você feliz. Camomila, para demonstrar apreço por uma amizade que sobreviveu à adversidade.',
         // Botânica

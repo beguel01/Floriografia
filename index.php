@@ -4,11 +4,12 @@ require 'data/flores.php';
 $titulo_pagina = 'Floriografia';
 include 'includes/header.php';
 ?>
+<section id="introducao">
 <h1>Você já parou para pensar que uma flor pode dizer muito mais do que imaginamos?
 
-Além de sua beleza e diversidade, as flores carregam histórias, significados e curiosidades que atravessam gerações.
-Neste site, você vai descobrir o fascinante universo da floriografia, e conhecer um pouco mais sobre a botânica, a ciência que estuda as plantas.
-Esse projeto foi inspirado no livro de floriografia de Jessica Roux que influenciou na criação do projeto para que seja inspiração para os jovens cultivar e apreciar a botânica.</h1>
+    Além de sua beleza e diversidade, as flores carregam histórias, significados e curiosidades que atravessam gerações.
+    Neste site, você vai descobrir o fascinante universo da floriografia, e conhecer um pouco mais sobre a botânica, a ciência que estuda as plantas.
+    Esse projeto foi inspirado no livro de floriografia de Jessica Roux que influenciou na criação do projeto para que seja inspiração para os jovens cultivar e apreciar a botânica.</h1>
 <h1>Introdução</h1>
 <p>EPA (Etec Portas Abertas)
     Tema do Projeto: O projeto é baseado em um livro de Floriografia de mesmo nome,
@@ -21,9 +22,18 @@ Esse projeto foi inspirado no livro de floriografia de Jessica Roux que influenc
 
 <section id="floriografia">
     <h1>Floriografia</h1>
-    <p>Nesta aba do site, haverá cerca de 30 espécies de flores principais com
-        descrições contendo seu nome científico, significado, origem e com quais outras
-        espécies elas combinam e seus significados.</p>
+    <p>A floriografia é a "linguagem das flores" — um sistema simbólico em que cada 
+        flor (e às vezes suas cores e combinações) carrega um significado específico, 
+        permitindo transmitir sentimentos sem precisar de palavras. Ficou popular na Era 
+        Vitoriana, quando expressar emoções abertamente era mal visto socialmente: 
+        presentear alguém com certas flores, ou combinações delas, podia declarar amor,
+         ciúme, luto ou desconfiança — até a forma de entregar o buquê podia mudar a mensagem.
+
+         Cada flor tinha um significado vindo de mitologia, religião, literatura ou características da 
+         própria planta (cor, formato, toxicidade, época de floração). Rosas vermelhas, por exemplo, 
+         simbolizam amor apaixonado, enquanto a cicuta, por ser venenosa, ficou associada à morte. Vários 
+         "dicionários" de floriografia foram publicados na época pra ajudar a decifrar essas mensagens — 
+         e é exatamente esse tipo de compilação que inspirou o livro da Jessica Roux, referência do seu projeto.</p>
 </section>
 
 <section id="polinizacao">
