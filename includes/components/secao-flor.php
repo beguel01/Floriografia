@@ -1,4 +1,4 @@
-<div class="secao-flor">
+<div class="secao-flor reveal">
     <h2><?= $flor_encontrada['nome'] ?> - <i><?= $flor_encontrada['nome_cientifico'] ?></i></h2>
     <h1>Floriografia</h1>
     <h2>Significado</h2>

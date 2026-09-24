@@ -98,7 +98,7 @@ $flores =
         'nome' => 'Cravo',
         'nome_cientifico' => 'Dianthus caryiphyllus',
         // Floriografia
-        'significado' => 'O significado do cravo pode remontar à crucificação de Jesus, pois diz-se que surgiram cravos onde as lágrimas da Virgem Maria verteram, o que levou à associação da flor com o sofrimento e o amor eterno de uma mãe por seu filho. Em inglês, o cravo é chamado de carnation, e pode ser uma referência ao fato de Jesus ser uma encarnação de Deus.',
+        'significado' => 'O significado do cravo pode remontar à crucificação de Jesus, pois diz-se que surgiram cravos onde as lágrimas da Virgem Maria verteram, o que levou à associação da flor com o sofrimento e o amor aterno de uma mãe por seu filho. Em inglês, o cravo é chamado de carnation, e pode ser uma referência ao fato de Jesus ser uma encarnação de Deus.',
         'origem' => '',
         'combina_com' => 'Hortelã ou jacinto-dos-campos, para consolar a perda de um filho. Urze, para presentear um filho que parte para a faculdade.',
         // Botânica

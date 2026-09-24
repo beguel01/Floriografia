@@ -1,0 +1,16 @@
+/* ===== EFEITOS DE SCROLL ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* delay individual pra cada card do carrossel (setado via JS) */
+.card-flor.reveal {
+  transition-delay: var(--reveal-delay, 0s);
+}

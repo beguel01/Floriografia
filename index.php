@@ -4,12 +4,22 @@ require 'data/flores.php';
 $titulo_pagina = 'Floriografia';
 include 'includes/header.php';
 ?>
-<section id="introducao">
-<h1>Você já parou para pensar que uma flor pode dizer muito mais do que imaginamos?
+<section id="capa">
+    <img src="assets/img/flores/inicial.jpeg" alt="" class="capa-imagem">
+    <div class="capa-indicador">
+        <span>Role para descobrir</span>
+        <div class="seta-baixo"></div>
+    </div>
+</section>
 
-    Além de sua beleza e diversidade, as flores carregam histórias, significados e curiosidades que atravessam gerações.
-    Neste site, você vai descobrir o fascinante universo da floriografia, e conhecer um pouco mais sobre a botânica, a ciência que estuda as plantas.
-    Esse projeto foi inspirado no livro de floriografia de Jessica Roux que influenciou na criação do projeto para que seja inspiração para os jovens cultivar e apreciar a botânica.</h1>
+<section id="introducao" class="reveal">
+    <p class="pergunta-inicial">Você já parou para pensar que uma flor pode dizer muito mais do que imaginamos?</p>
+    <span class="divisor-ornamental"></span>
+    <p class="texto-inicial reveal">
+        Além de sua beleza e diversidade, as flores carregam histórias, significados e curiosidades que atravessam gerações.
+        Neste site, você vai descobrir o fascinante universo da floriografia, e conhecer um pouco mais sobre a botânica, a ciência que estuda as plantas.
+        Esse projeto foi inspirado no livro de floriografia de Jessica Roux, que influenciou na criação deste site para que ele seja também uma inspiração para os jovens cultivarem e apreciarem a botânica.
+    </p>
 <h1>Introdução</h1>
 <p>EPA (Etec Portas Abertas)
     Tema do Projeto: O projeto é baseado em um livro de Floriografia de mesmo nome,
@@ -20,7 +30,7 @@ include 'includes/header.php';
     abas específicas para cada tema (Floriografia, Botânica e Polinização)</p>
 </section>
 
-<section id="floriografia">
+<section id="floriografia" class="reveal">
     <h1>Floriografia</h1>
     <p>A floriografia é a "linguagem das flores" — um sistema simbólico em que cada 
         flor (e às vezes suas cores e combinações) carrega um significado específico, 
@@ -36,7 +46,7 @@ include 'includes/header.php';
          e é exatamente esse tipo de compilação que inspirou o livro da Jessica Roux, referência do seu projeto.</p>
 </section>
 
-<section id="polinizacao">
+<section id="polinizacao" class="reveal">
     <h1>Polinização</h1>
     <p>A polinização é o processo de transferência do pólen da parte masculina da flor,
         chamada antera, para a parte feminina, chamada estigma. Esse processo é
@@ -75,13 +85,6 @@ include 'includes/header.php';
         </section>
     </div>
 </div>
-
-
-
-<section id="sobreNos">
-    <h1>Sobre nós</h1>
-    <p>Conteudo</p>
-</section>
 
 
 <?php include 'includes/footer.php'; ?>
