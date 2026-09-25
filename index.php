@@ -6,8 +6,8 @@ include 'includes/header.php';
 ?>
 <section id="capa">
     <img src="assets/img/flores/inicial.jpeg" alt="" class="capa-imagem">
-    <div class="capa-indicador">
-        <span>Role para descobrir</span>
+    <div class="capa-indicador" data-proxima="#introducao">
+        <span>COMEÇAR</span>
         <div class="seta-baixo"></div>
     </div>
 </section>
@@ -20,35 +20,41 @@ include 'includes/header.php';
         Neste site, você vai descobrir o fascinante universo da floriografia, e conhecer um pouco mais sobre a botânica, a ciência que estuda as plantas.
         Esse projeto foi inspirado no livro de floriografia de Jessica Roux, que influenciou na criação deste site para que ele seja também uma inspiração para os jovens cultivarem e apreciarem a botânica.
     </p>
-<h1>Introdução</h1>
-<p>EPA (Etec Portas Abertas)
-    Tema do Projeto: O projeto é baseado em um livro de Floriografia de mesmo nome,
-    onde além de abordar o significado e origem das flores, também terá informações
-    sobre suas estruturas, cultivo, reprodução e polinização.
-    Além das explicações ditas pelas integrantes e um jogo da memória de mesmo tema, o
-    projeto também contará com o auxílio de um site que reuniria todas as informações em
-    abas específicas para cada tema (Floriografia, Botânica e Polinização)</p>
+    <h1>Introdução</h1>
+    <p class="texto-secao">EPA (Etec Portas Abertas)
+        Tema do Projeto: O projeto é baseado em um livro de Floriografia de mesmo nome,
+        onde além de abordar o significado e origem das flores, também terá informações
+        sobre suas estruturas, cultivo, reprodução e polinização.
+        Além das explicações ditas pelas integrantes e um jogo da memória de mesmo tema, o
+        projeto também contará com o auxílio de um site que reuniria todas as informações em
+        abas específicas para cada tema (Floriografia, Botânica e Polinização)</p>
+    <button class="seta-proxima" type="button" data-proxima="#floriografia" aria-label="Próxima seção">
+        <span class="seta-baixo"></span><span>Próxima</span>
+    </button>
 </section>
 
 <section id="floriografia" class="reveal">
     <h1>Floriografia</h1>
-    <p>A floriografia é a "linguagem das flores" — um sistema simbólico em que cada 
-        flor (e às vezes suas cores e combinações) carrega um significado específico, 
-        permitindo transmitir sentimentos sem precisar de palavras. Ficou popular na Era 
-        Vitoriana, quando expressar emoções abertamente era mal visto socialmente: 
+    <p class="texto-secao">A floriografia é a "linguagem das flores" — um sistema simbólico em que cada
+        flor (e às vezes suas cores e combinações) carrega um significado específico,
+        permitindo transmitir sentimentos sem precisar de palavras. Ficou popular na Era
+        Vitoriana, quando expressar emoções abertamente era mal visto socialmente:
         presentear alguém com certas flores, ou combinações delas, podia declarar amor,
-         ciúme, luto ou desconfiança — até a forma de entregar o buquê podia mudar a mensagem.
+        ciúme, luto ou desconfiança — até a forma de entregar o buquê podia mudar a mensagem.
 
-         Cada flor tinha um significado vindo de mitologia, religião, literatura ou características da 
-         própria planta (cor, formato, toxicidade, época de floração). Rosas vermelhas, por exemplo, 
-         simbolizam amor apaixonado, enquanto a cicuta, por ser venenosa, ficou associada à morte. Vários 
-         "dicionários" de floriografia foram publicados na época pra ajudar a decifrar essas mensagens — 
-         e é exatamente esse tipo de compilação que inspirou o livro da Jessica Roux, referência do seu projeto.</p>
+        Cada flor tinha um significado vindo de mitologia, religião, literatura ou características da
+        própria planta (cor, formato, toxicidade, época de floração). Rosas vermelhas, por exemplo,
+        simbolizam amor apaixonado, enquanto a cicuta, por ser venenosa, ficou associada à morte. Vários
+        "dicionários" de floriografia foram publicados na época pra ajudar a decifrar essas mensagens —
+        e é exatamente esse tipo de compilação que inspirou o livro da Jessica Roux, referência do seu projeto.</p>
+    <button class="seta-proxima" type="button" data-proxima="#polinizacao" aria-label="Próxima seção">
+        <span class="seta-baixo"></span><span>Próxima</span>
+    </button>
 </section>
 
 <section id="polinizacao" class="reveal">
     <h1>Polinização</h1>
-    <p>A polinização é o processo de transferência do pólen da parte masculina da flor,
+    <p class="texto-secao">A polinização é o processo de transferência do pólen da parte masculina da flor,
         chamada antera, para a parte feminina, chamada estigma. Esse processo é
         fundamental para a reprodução das plantas, pois possibilita a fecundação e,
         consequentemente, a formação de frutos e sementes que darão origem a novas
@@ -75,14 +81,21 @@ include 'includes/header.php';
         depende da polinização realizada por animais para produzir frutos e sementes.
         Após a explicação geral a respeito dos temas citados acima e de um exemplo físico (o
         hibisco), o grupo apresentará o jogo da memória tematico.</p>
+    <button class="seta-proxima" type="button" data-proxima="#flores" aria-label="Ir para as flores">
+        <span class="seta-baixo"></span><span>Ver as flores</span>
+    </button>
 </section>
+
 <div class="container-carrossel">
+    <p class="texto-carrossel">Agora explore o nosso jardim e descubra os segredos de cada flor.</p>
     <div class="container-carrossel-card">
+        <button class="seta-carrossel seta-carrossel-esquerda" type="button" data-direcao="-1" aria-label="Flor anterior">‹</button>
         <section id="flores" class="cu">
             <?php foreach ($flores as $flor) {
                 include './includes/components/card-significado.php';
             } ?>
         </section>
+        <button class="seta-carrossel seta-carrossel-direita" type="button" data-direcao="1" aria-label="Próxima flor">›</button>
     </div>
 </div>
 

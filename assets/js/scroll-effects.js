@@ -33,3 +33,27 @@ if (capa && nav) {
     }
   });
 }
+
+// Navegação por seção: clicar na seta desce suavemente até o alvo indicado
+document.querySelectorAll('[data-proxima]').forEach((el) => {
+  el.addEventListener('click', () => {
+    const alvo = document.querySelector(el.dataset.proxima);
+    if (alvo) alvo.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Setas de ir/voltar no carrossel de flores
+const carrossel = document.querySelector('#flores');
+
+if (carrossel) {
+  document.querySelectorAll('.seta-carrossel').forEach((botao) => {
+    botao.addEventListener('click', () => {
+      const primeiroCard = carrossel.querySelector('.card-flor');
+      const gap = parseFloat(getComputedStyle(carrossel).gap) || 24;
+      const passo = primeiroCard ? primeiroCard.getBoundingClientRect().width + gap : 244;
+      const direcao = Number(botao.dataset.direcao);
+
+      carrossel.scrollBy({ left: direcao * passo, behavior: 'smooth' });
+    });
+  });
+}

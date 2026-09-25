@@ -1,0 +1,229 @@
+:root {
+  --seta-tamanho: 2rem;
+}
+
+/* ===== NAVEGAÇÃO POR SEÇÃO (uma "página" por vez, via scroll-snap) ===== */
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+}
+
+#introducao,
+#floriografia,
+#polinizacao,
+.container-carrossel {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start;
+  position: relative;
+  padding: 20px 40px calc(var(--seta-tamanho) * 1.2 + 60px);
+  box-sizing: border-box;
+}
+
+#introducao h1,
+#floriografia h1,
+#polinizacao h1 {
+  margin-bottom: 10px;
+  font-size: 2.3rem;
+}
+
+.pergunta-inicial {
+  margin-bottom: 12px;
+}
+
+.divisor-ornamental {
+  margin-bottom: 12px;
+}
+
+.texto-inicial {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.texto-secao {
+  line-height: 1.45;
+  font-size: 1.2rem;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.texto-carrossel {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+/* ===== SETA "PRÓXIMA" (avança pra próxima seção) ===== */
+.seta-proxima {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: var(--seta-tamanho);
+  white-space: nowrap;
+  animation: flutuar 2s ease-in-out infinite;
+}
+.seta-anterior
+{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: var(--seta-tamanho);
+  white-space: nowrap;
+  animation: flutuar 2s ease-in-out infinite;
+}
+.capa-indicador {
+  cursor: pointer;
+}
+
+/* ===== #flores: reserva espaço fixo nas laterais pra caber a seta do carrossel ===== */
+#flores {
+  padding: 20px 70px 30px;
+}
+
+/* ===== SETAS DE NAVEGAÇÃO DO CARROSSEL ===== */
+.container-carrossel-card {
+  position: relative;
+}
+
+.seta-carrossel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seta-carrossel::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-right: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.seta-carrossel:hover::before {
+  opacity: 1;
+}
+
+.seta-carrossel:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.seta-carrossel-esquerda {
+  left: 16px;
+}
+
+.seta-carrossel-esquerda::before {
+  transform: rotate(135deg);
+}
+
+.seta-carrossel-direita {
+  right: 16px;
+}
+
+.seta-carrossel-direita::before {
+  transform: rotate(-45deg);
+}
+
+/* ===== AJUSTES PARA TELAS MENORES/MAIS BAIXAS (ex. ThinkPad 1366x768) ===== */
+@media (max-width: 900px), (max-height: 820px) {
+  :root {
+    --seta-tamanho: 1.3rem;
+  }
+
+  #introducao,
+  #floriografia,
+  #polinizacao,
+  .container-carrossel {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+  }
+
+  .pergunta-inicial {
+    font-size: 2.1rem;
+    margin-bottom: 8px;
+  }
+
+  .texto-inicial {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+
+  #introducao h1,
+  #floriografia h1,
+  #polinizacao h1 {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+  }
+
+  .texto-secao {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .seta-proxima {
+    bottom: 14px;
+  }
+
+  #flores {
+    padding: 16px 56px 24px;
+  }
+
+  .seta-carrossel {
+    width: 30px;
+    height: 30px;
+  }
+
+  .seta-carrossel-esquerda {
+    left: 8px;
+  }
+
+  .seta-carrossel-direita {
+    right: 8px;
+  }
+}
+

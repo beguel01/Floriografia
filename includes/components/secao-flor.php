@@ -14,4 +14,8 @@
     <p><?= $flor_encontrada['cultivo'] ?></p>
     <h2>Reprodução</h2>
     <p><?= $flor_encontrada['reproducao'] ?></p>
+    <a href="index.php#flores" class="seta-anterior" aria-label="Voltar para o carrossel">
+    <span>Voltar</span>
+    <span class="seta-carrossel-icone" style="transform:rotate(135deg)"></span>
+</a>
 </div>
